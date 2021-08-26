@@ -1,0 +1,23 @@
+.track {
+  padding: 20px;
+  background-color: black !important;
+  margin-bottom: 50px;
+  &__content {
+    margin-top: 30px;
+    color: #fafbfc;
+    &__name{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    &__artist-name a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+.search {
+  margin: 50px 0px;
+  & .form-outline{
+      width: 100%;
+  }
+}

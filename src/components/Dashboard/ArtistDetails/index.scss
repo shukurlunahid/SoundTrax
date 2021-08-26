@@ -1,0 +1,28 @@
+.artist {
+  &__about {
+    padding: 50px;
+    background-color: #101316;
+    &__content {
+      & a {
+        color: lightgray;
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+      & p {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .artist__about__content {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .artist a{
+    display: block;
+  }
+}
